@@ -6,40 +6,40 @@ body {
     font-size: 14px;
 }
 
-li {
+/* li {
     list-style: none;
-}
+} */
 
-a {
+/* a {
     text-decoration: none;
-}
+} */
 
 /*  Специфічність*/
-.blogs-title{
+/* .blogs-title{
     color: aqua !important;
-}
+} */
 
-#id-title {
+/* #id-title {
     color: blue;
-}
+} */
 
-section .blogs-title {
+/* section .blogs-title {
     color: red;
-}
+} */
 
 /* Псевдокласи стану */
-.link {
+/* .link {
     color: teal;
-}
+} */
 
-.link:hover,
+/* .link:hover,
 .link:focus {
     color: orange;
-}
+} */
 
-.link:active {
+/* .link:active {
     color: red;
-}
+} */
 
 /* .link:visited {
     color: green;
