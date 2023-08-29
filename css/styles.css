@@ -23,9 +23,9 @@ h3{
 header a {
   color: red;
 } */
-body{
+/* body{
 font-family: 'Courier New', Courier, monospace;
-}
+} */
 
 li {
     list-style: none;
@@ -51,32 +51,32 @@ a {
 /* Псевдокласи стану */
 .link {
     color: teal;
-    text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
-/* .link:hover,
+.link:hover,
 .link:focus {
     color: orange;
-} */
+}
 
-/* .link:active {
+.link:active {
     color: red;
-} */
+}
 
-/* .link:visited {
+.link:visited {
     color: green;
-} */
+}
 
 /*  pseudo classes*/
 /* .list-item:not(:last-child) */
-.list-item {
+.list-item:not(:first-child) {
     margin-bottom: 12px;
 }
 
-.list-item:last-child {
+/* .list-item:last-child {
     margin-bottom: 0;
-}
+} */
 
 
 /* :nth-child(an+b)*/
@@ -144,7 +144,7 @@ a {
 } */
 
 /* вибирає останній селектор цього типу; */
-/* .schedule-body>tr:last-of-type {
+.schedule-body>tr:last-of-type {
   background-color: tomato;
   color: white;
-} */
+}
