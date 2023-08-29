@@ -1,18 +1,39 @@
-body {
-    font-family: "Playfair Display";
-    font-style: normal;
-    line-height: normal;
-    font-weight: 400;
-    font-size: 14px;
+/* .section > .section-title{
+  color: purple;
+} */
+
+/* #title-id{
+  color: purple;
+} */
+
+/* .section-title,
+.link,
+.list{
+  color: blue;
 }
 
-/* li {
-    list-style: none;
-} */
+h3{
+  color: red !important;
+}
 
-/* a {
-    text-decoration: none;
+h3{
+  color: green;
+}
+
+header a {
+  color: red;
 } */
+body{
+font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 /*  Специфічність*/
 /* .blogs-title{
@@ -28,9 +49,11 @@ body {
 } */
 
 /* Псевдокласи стану */
-/* .link {
+.link {
     color: teal;
-} */
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 /* .link:hover,
 .link:focus {
